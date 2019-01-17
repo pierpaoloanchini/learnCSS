@@ -4,15 +4,21 @@
     <title> Pagina di test: non fatevi prendere dal panico </title>
     <meta  charset="utf-8">
     <style>
-      div {border:1px
-        solid
-        black;}
-      a {color:red;}
-      div a {color: green;}
-      li {color:yellow;
-        border: 1px
-        solid
-        black;}
+      #exec-bio {
+        background-color:lightgray;
+      }
+      .bio-box {
+        border:1px solid black;
+      }
+      .bio-box a {
+        color: green;
+      }
+      a {
+        color:red;
+      }
+      #pippo{
+        background-color: orange;
+      }
     </style>
   </head>
   <body>
@@ -29,17 +35,17 @@
       </li>
     </ul>
     <h2> Sono un h2 </h2>
-    <div>
+    <div id="exec-bio" class="bio-box">
       <a href="http://example.com/"> Sono un link </a>
     </div>
-    <div>
+    <div id="pippo" class="bio-box">
       <a href="http://example.com/"> Sono un link </a>
     </div>
-    <div>
+    <div class="bio-box">
       <a href="http://example.com/"> Sono un link </a>
     </div>
-    <div>
-      <a href="http://example.com/" style="color: green;"> Sono un link </a>
+    <div class="bio-box">
+      <a href="http://example.com/"> Sono un link </a>
     </div>
   </body>
 </html>
