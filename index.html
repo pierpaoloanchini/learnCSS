@@ -20,16 +20,29 @@
         color: #9b0396;
         background: rgba(255, 255, 0, 0.2);
       }
+      li{
+        background-color: yellow;
+        display: inline-block;
+        margin: 0;
+        border: 3px solid black;
+        text-align: center;
+        height: 30px;
+        box-sizing: border-box;
+      }
       .full-hero{
         background-color: #c7dbfc;
         height: 50vh;
         width: 75vw;
+        display: inline-block;
       }
       .bio-box {
         border: 1px solid black;
-        width: 50%;
         background: rgba(0,255,0,0.5);
-        font-size: 1em;
+        font-size: 1rem;
+        padding: 2%;
+        width: 25%;
+        box-sizing: border-box;
+        float: left;
       }
       .bio-copy{
         font-size: 1rem;
@@ -37,14 +50,18 @@
       .bio-box a {
         color: green;
       }
-      a.social-link{
+      .social-link{
         color:red;
         background: rgba(255,255,0,0.5);
+        display:inline-block;
+        /*height: 36px;*/
+        width: 75px;
       }
       h1.social-link {
         color:green;
-        font-size: 7vw;
-        margin-top: 0;
+        width: 70vw;
+        font-size: 3em;
+        height: auto;
       }
       .bio-wrapper{
         font-size:16px;
@@ -97,7 +114,7 @@
     </div>
     <div class="bio-box">
       <h3>Nick Merwin</h3>
-      <a class="social-link" href="https://twitter.com/nickmerwin">here</a>
+      <a class="social-link show" href="https://twitter.com/nickmerwin">here</a>
       <p>
         You may have seen him shredding guitar live with Capital Cities on Jimmy
         Kimmel, Conan, or The Ellen Show, but rest assured Nick is a true nerd at
@@ -114,5 +131,32 @@
       </div>
     </div>
   </div>
+  <p style="clear:both;">
+    Learn Enough to Be Dangerous is a leader in the movement to teach the
+    world <em>technical sophistication</em>, which includes both "hard
+    skills" like coding, command lines, and version control, and "soft
+     skills" like guessing keyboard shortcuts, Googling error messages, and
+    knowing when to just reboot the darn thing.
+  </p>
+  <p>
+    We believe there are <strong>at least a billion people</strong> who can
+    benefit from learning technical sophistication, probably more. To join
+    our movement,
+    <a href="https://learnenough.com/#email_list">sign up for our official
+    email list</a> now.
+  </p>
+  <h3>Background</h3>
+  <p>
+    Learn Enough to Be Dangerous is an outgrowth of the
+    <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a> and the
+    <a href="https://www.softcover.io/">Softcover publishing platform</a>.
+    This page is part of the sample site for
+    <a href="https://learnenough.com/css-tutorial"><em>Learn Enough CSS and
+    Layout to Be Dangerous</em></a>, which teaches the basics of
+    <strong>C</strong>ascading <strong>S</strong>tyle
+    <strong>S</strong>heets, the language that allows web pages to be styled.
+    Other related tutorials can be found at
+    <a href="https://learnenough.com/">learnenough.com</a>.
+  </p>
   </body>
 </html>
