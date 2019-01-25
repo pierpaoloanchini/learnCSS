@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Test Page: Don't Panic</title>
     <meta charset="utf-8">
@@ -37,7 +37,7 @@
       }
       .bio-box {
         border: 1px solid black;
-        background: rgba(0,255,0,0.5);
+        /*background: rgba(0,255,0,0.5);*/
         font-size: 1rem;
         padding: 2%;
         width: 25%;
@@ -64,8 +64,18 @@
         height: auto;
       }
       .bio-wrapper{
-        font-size:16px;
+        font-size:50px;
+        background: rgba(255,0,0,0658);
+        overflow: hidden;
       }
+    /*.bio-wrapper:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+      } */
     </style>
   </head>
   <body>
@@ -73,13 +83,13 @@
     <h1 class="social-link">I'm an h1</h1>
     <ul>
       <li>
-        <a href="http://example.com/" class="social-link">Link</a>
+        <a href="http://example.com/" class="social-link">Link1</a>
       </li>
       <li>
-        <a href="http://example.com/" class="social-link">Link</a>
+        <a href="http://example.com/" class="social-link">Link2</a>
       </li>
       <li>
-        <a href="http://example.com/" class="social-link">Link</a>
+        <a href="http://example.com/" class="social-link">Link3</a>
       </li>
     </ul>
   </div>
@@ -131,7 +141,7 @@
       </div>
     </div>
   </div>
-  <p style="clear:both;">
+  <p>
     Learn Enough to Be Dangerous is a leader in the movement to teach the
     world <em>technical sophistication</em>, which includes both "hard
     skills" like coding, command lines, and version control, and "soft
