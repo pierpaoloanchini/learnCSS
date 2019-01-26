@@ -20,9 +20,14 @@
         color: #9b0396;
         background: rgba(255, 255, 0, 0.2);
       }
-      li{
-        background-color: yellow;
+      .social-list{
+        list-style:none;
+        padding: 10px;
+        text-align: center;
+      }
+      .social-list > li{
         display: inline-block;
+        background-color: yellow;
         margin: 0;
         border: 3px solid black;
         text-align: center;
@@ -40,7 +45,8 @@
         /*background: rgba(0,255,0,0.5);*/
         font-size: 1rem;
         padding: 2%;
-        width: 25%;
+        margin: 40px 1%;
+        width: 23%;
         box-sizing: border-box;
         float: left;
       }
@@ -53,7 +59,6 @@
       .social-link{
         color:red;
         background: rgba(255,255,0,0.5);
-        display:inline-block;
         /*height: 36px;*/
         width: 75px;
       }
@@ -81,7 +86,7 @@
   <body>
   <div class="full-hero hero-home">
     <h1 class="social-link">I'm an h1</h1>
-    <ul>
+    <ul class="social-list">
       <li>
         <a href="http://example.com/" class="social-link">Link1</a>
       </li>
