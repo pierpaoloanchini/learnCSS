@@ -9,6 +9,8 @@ body{
   font-size: 1em;
   margin: 0;
   padding: 0;
+  width: 100vw;
+  line-height: 1.5;
 }
 a {
   color: #9b0396;
@@ -20,7 +22,7 @@ a {
   text-align: center;
 }
 .social-list > li{
-  padding-top: 0.4em;
+  padding-top: 0.2em;
   display: inline-block;
   background-color: yellow;
   margin: 0;
@@ -88,7 +90,8 @@ h1.social-link {
 }
 .bio-box > .social-link{
   border: 1px solid black;
-  padding-top: 0.4em;
+  padding-top: 0.2em;
+  color: red;
   box-sizing: border-box;
   border-radius: 30px;
   display: block;
