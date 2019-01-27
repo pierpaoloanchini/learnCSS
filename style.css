@@ -11,6 +11,7 @@ body{
   padding: 0;
   width: 100vw;
   line-height: 1.5;
+  box-sizing: border-box;
 }
 a {
   color: #9b0396;
@@ -40,6 +41,7 @@ a {
   background-color: #c7dbfc;
   height: auto;
   width: 100vw;
+  margin-bottom: 0;
 }
 .bio-box {
   border: 1px solid black;
@@ -75,10 +77,11 @@ h1.social-link {
 }
 .bio-wrapper{
   max-width: 85%;
-  margin: 0 auto 30px;
+  margin: -16px auto 30px;
   font-size:50px;
   background: rgba(255,0,0,0658);
   overflow: hidden;
+  border-radius: 10px;
 }
 .bio-box > img{
   width: 100%;
