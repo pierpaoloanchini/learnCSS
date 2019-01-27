@@ -9,13 +9,16 @@ body{
   font-size: 1em;
   margin: 0;
   padding: 0;
-  width: 100vw;
   line-height: 1.5;
   box-sizing: border-box;
 }
 a {
   color: #9b0396;
   background: rgba(255, 255, 0, 0.2);
+}
+.p-final {
+  box-sizing: border-box;
+  width: 95vw;
 }
 .social-list{
   list-style:none;
@@ -40,7 +43,6 @@ a {
 .full-hero{
   background-color: #c7dbfc;
   height: auto;
-  width: 100vw;
   margin-bottom: 0;
 }
 .bio-box {
