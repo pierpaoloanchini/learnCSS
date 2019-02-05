@@ -16,10 +16,6 @@ a {
   color: #9b0396;
   background: rgba(255, 255, 0, 0.2);
 }
-.p-final {
-  box-sizing: border-box;
-  width: 95vw;
-}
 .social-list{
   list-style:none;
   padding: 10px;
